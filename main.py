@@ -3,7 +3,7 @@ import time
 from hash_table_functions import *
 from shared_data import delivery_times
 from delivery_functions import *
-#Student ID:010844848
+
 
 # Delivery app UI class and methods to simulate the delivery process and manage interactions.
 # It's a very simple UI since external libraries aren't allowed.

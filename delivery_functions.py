@@ -212,10 +212,6 @@ def start_delivery():
         nearest_neighbor_truck_3(truck_3_package_info, distance_table, address_to_index)
         #print(f"Truck 3 returns at {return_time[3].strftime('%H:%M:%S')}.")
 
-        # Check and record package statuses at specified times
-   # status_snapshots = check_package_status_every_five_minutes(hash_table, delivery_times, truck_departure_times)
-   # format_status_snapshots(status_snapshots)
-
     # Final check to confirm all packages are delivered
     check_and_update_package_status(hash_table, delivery_times, start_time)
 
